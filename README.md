@@ -20,7 +20,7 @@ This repository contains the source code for an advanced robot car equipped with
 - ### Bluetooth Control
   To allow the robot car to be controlled via Bluetooth on a smartphone app, a Bluetooth Serial Transceiver module is connected to the Arduino Uno microcontroller on the robot car. Each direction has a button and is assigned to a serial character, and when that character is read by the code, the robot car would then move in the following direction.
 - ### In the Box Game (Special Feature 1)
-  The In The Box Game utilizes the Ultrasonic Ranging Module to establish an up to 4 player game. This game uses the same principles in terms of obstacle detection. The goal of the game is to keep the robot car within a box while it is constantly being deflected. Each deflection turns the robot car to a random direction, with each player taking turns to keep it in the box. However, the car can only be reflected if a bat is detected within 4-10cm from the Ultrasonic sensor. Any less and the current player loses. 
+  The In the Box Game utilizes the Ultrasonic Ranging Module to establish an up to 4 player game. This game uses the same principles in terms of obstacle detection. The goal of the game is to keep the robot car within a box while it is constantly being deflected. Each deflection turns the robot car to a random direction, with each player taking turns to keep it in the box. However, the car can only be reflected if a bat is detected within 4-10cm from the Ultrasonic sensor. Any less and the current player loses. 
 - ### Dog Mode (Special Feature 2)
   This feature enables the robot car to behave like a dog. For example: follow the owner, wag its tail, turn around when someone taps its tail and perform tricks when voice commands are given. Complicated coding has been implemented to allow the “dog” to be as lifelike as possible.
   <br><br>When a person is detected within 30cm in front of the Ultrasonic sensor, the robot car will approach the person slowly till a distance of 15cm between it and the person. When a hand is detected within 2cm of the Ultrasonic sensor, this signals that the person wants to pat the “dog”, thus it will allow the person to do so and wag its tail.
@@ -28,7 +28,17 @@ This repository contains the source code for an advanced robot car equipped with
   <br><br><img src="https://github.com/julianganjs/line-following-robot-car/assets/127673790/12cc8be8-8c27-4366-a403-afe85f06a9a3" width="230vw"><br>
   For voice commands, it follows the same principles as the bluetooth control function, except each voice command is assigned to a serial character on the smartphone app instead of a button. The Arduino UNO then determines the next action based on the given code.
 ## Code Structure
-
-
+- LineFollowingCode.ino:
+  <br>This code allows the robot car to detect and follow track lines.
+- EncoderSensorCode.ino:
+  <br>This code allows the robot car to measure and calculate the total distance it has travelled.
+- ObstacleAvoidingCode.ino:
+  <br>This code allows the robot car to avoid obstacles in its path.
+- BluetoothControlCode.ino:
+  <br>This code allows the robot car to be controlled via Bluetooth on a smartphone app.
+- SpecialFeature1.ino:
+  <br>This code enables the In the Box game on the robot car.
+- SpecialFeature2.ino:
+  <br>This code enables dog mode on the robot car.
 ## License
 This project is licensed under the MIT License.
