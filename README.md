@@ -28,17 +28,11 @@ This repository contains the source code for an advanced robot car equipped with
   <br><br><img src="https://github.com/julianganjs/line-following-robot-car/assets/127673790/12cc8be8-8c27-4366-a403-afe85f06a9a3" width="230vw"><br>
   For voice commands, it follows the same principles as the bluetooth control function, except each voice command is assigned to a serial character on the smartphone app instead of a button. The Arduino UNO then determines the next action based on the given code.
 ## Code Structure
-- LineFollowingCode.ino:
-  <br>This code allows the robot car to detect and follow track lines.
-- EncoderSensorCode.ino:
-  <br>This code allows the robot car to measure and calculate the total distance it has travelled.
-- ObstacleAvoidingCode.ino:
-  <br>This code allows the robot car to avoid obstacles in its path.
-- BluetoothControlCode.ino:
-  <br>This code allows the robot car to be controlled via Bluetooth on a smartphone app.
-- SpecialFeature1.ino:
-  <br>This code enables the In the Box game on the robot car.
-- SpecialFeature2.ino:
-  <br>This code enables dog mode on the robot car.
+- LineFollowingCode.ino: This code allows the robot car to detect and follow track lines.
+- EncoderSensorCode.ino: This code allows the robot car to measure and calculate the total distance it has travelled.
+- ObstacleAvoidingCode.ino: This code allows the robot car to avoid obstacles in its path.
+- BluetoothControlCode.ino: This code allows the robot car to be controlled via Bluetooth on a smartphone app.
+- SpecialFeature1.ino: This code enables the In the Box game on the robot car.
+- SpecialFeature2.ino: This code enables dog mode on the robot car.
 ## License
 This project is licensed under the MIT License.
