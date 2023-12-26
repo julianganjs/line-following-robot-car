@@ -4,5 +4,5 @@ This repository contains the source code for an advanced robot car equipped with
 - Arduino IDE
 > The software is required to upload the code to the Arduino UNO board.
 ## Features
-- ### Line Following
+- Line Following
   waidbdawkbdwkbadwadwadw
