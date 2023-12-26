@@ -1,5 +1,5 @@
 # Line Following Robot Car
-This repository contains the source code for an advanced robot car equipped with line following, distance measurement, obstacle avoidance, bluetooth control and two special features. The robot operates on an Arduino Uno microcontroller and is programmed using C++ language in Arduino IDE.
+This repository contains the source code for an advanced robot car equipped with line following, distance measurement, obstacle avoidance, Bluetooth control and two special features. The robot operates on an Arduino Uno microcontroller and is programmed using C++ language in Arduino IDE.
 ## Prerequisites
 - Arduino IDE
 > The software is required to upload the code to the Arduino UNO board.
